@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <title>Perfumes</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <header>
+    <h1>Perfumes Britney Spears</h1>
+    <!-- <div id="carrito-container">
+      <button id="carrito-btn" onclick="toggleCarrito()">🛒 Carrito (<span id="carrito-cantidad">0</span>)</button>
+      <div id="carrito" style="display:none;">
+        <h2>Carrito de compras</h2>
+        <ul id="carrito-lista"></ul>
+        <p id="carrito-vacio">El carrito está vacío.</p>
+        <p id="carrito-total" style="font-weight:bold; color:#a600a6; margin-top:10px;">Total: $0</p>
+      </div>
+    </div> -->
+  </header>
+
+  <body class="bg-light">
+    <div class="container py-4">
+      <!-- contenido aquí -->
+    </div>
+  </body>  
+
+  <h2>No Agregar</h2>
+  <form id="formAgregar">
+    <input type="text" id="nombre" placeholder="Nombre" required>
+    <input type="number" id="valor" placeholder="Valor" required>
+  </form>
+  <div id="contenedor" class="contenedor"></div>
+  <p id="mensajeVacio" class="vacio"></p>
+
+  <footer>
+    <section class="contacto">
+      <h2>Contacto</h2>
+      <form>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </footer>
+  <script src="./JS/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
